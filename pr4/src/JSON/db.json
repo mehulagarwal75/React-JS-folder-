@@ -1,0 +1,1365 @@
+{
+  "product": [
+    {
+      "id": "P001",
+      "p_name": "iPhone 15 Pro",
+      "p_price": 134000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1696446701796-da61225697cc?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Titanium design, A17 Pro chip, Pro camera system."
+    },
+    {
+      "id": "P002",
+      "p_name": "Samsung Galaxy S24",
+      "p_price": 79000,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Galaxy AI, 50MP camera, 120Hz display."
+    },
+    {
+      "id": "P003",
+      "p_name": "Sony WH-1000XM5",
+      "p_price": 29000,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Industry-leading noise cancellation."
+    },
+    {
+      "id": "P004",
+      "p_name": "MacBook Air M2",
+      "p_price": 99000,
+      "p_stock": 8,
+      "p_image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Supercharged by M2 chip, 13.6-inch Liquid Retina."
+    },
+    {
+      "id": "P005",
+      "p_name": "Dell XPS 13",
+      "p_price": 125000,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Compact premium laptop with infinity edge display."
+    },
+    {
+      "id": "P006",
+      "p_name": "Nintendo Switch OLED",
+      "p_price": 32000,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1578303372252-af77a47b5952?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Vibrant 7-inch OLED screen, 64GB storage."
+    },
+    {
+      "id": "P007",
+      "p_name": "Logitech MX Master 3S",
+      "p_price": 9500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1527866959252-deab85ef7d1b?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Performance wireless mouse for creators."
+    },
+    {
+      "id": "P008",
+      "p_name": "Razer BlackWidow V4",
+      "p_price": 15000,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Mechanical gaming keyboard with green switches."
+    },
+    {
+      "id": "P009",
+      "p_name": "Bose SoundLink Revolve",
+      "p_price": 18000,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Deep, loud and immersive 360 sound."
+    },
+    {
+      "id": "P010",
+      "p_name": "Canon EOS R10",
+      "p_price": 85000,
+      "p_stock": 4,
+      "p_image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Mirrorless camera with high speed autofocus."
+    },
+    {
+      "id": "P011",
+      "p_name": "Nike Air Force 1",
+      "p_price": 9000,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic white sneakers, durable leather."
+    },
+    {
+      "id": "P012",
+      "p_name": "Adidas Ultraboost",
+      "p_price": 16000,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Responsive running shoes with boost energy."
+    },
+    {
+      "id": "P013",
+      "p_name": "Levi's Trucker Jacket",
+      "p_price": 5500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1527010159945-c42509220548?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Original denim jacket since 1967."
+    },
+    {
+      "id": "P014",
+      "p_name": "Ray-Ban Aviator",
+      "p_price": 10500,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Timeless pilot style sunglasses."
+    },
+    {
+      "id": "P015",
+      "p_name": "Fossil Heritage Watch",
+      "p_price": 12000,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Automatic leather watch for men."
+    },
+    {
+      "id": "P016",
+      "p_name": "Zara Trench Coat",
+      "p_price": 8000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1591047139829-d91aec96bbaf?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Elegant beige coat for winter style."
+    },
+    {
+      "id": "P017",
+      "p_name": "H&M Cotton T-Shirt",
+      "p_price": 799,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Pack of 3 basic crew neck tees."
+    },
+    {
+      "id": "P018",
+      "p_name": "Gucci Leather Belt",
+      "p_price": 35000,
+      "p_stock": 3,
+      "p_image": "https://images.unsplash.com/photo-1624222247344-550fb8ec970d?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Double G buckle premium leather belt."
+    },
+    {
+      "id": "P019",
+      "p_name": "Puma Sport Shorts",
+      "p_price": 1500,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Quick-dry breathable training shorts."
+    },
+    {
+      "id": "P020",
+      "p_name": "Tommy Hilfiger Wallet",
+      "p_price": 3500,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic bifold leather wallet."
+    },
+    {
+      "id": "P021",
+      "p_name": "Cotton Bed Sheets",
+      "p_price": 2500,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "King size 400 TC pure cotton sheet."
+    },
+    {
+      "id": "P022",
+      "p_name": "IKEA Floor Lamp",
+      "p_price": 3000,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1507473885765-e6ed657f9971?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Modern Scandinavian style floor lamp."
+    },
+    {
+      "id": "P023",
+      "p_name": "Ceramic Flower Vase",
+      "p_price": 1200,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1581783898377-1c85bf937427?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Hand-painted minimalist ceramic vase."
+    },
+    {
+      "id": "P024",
+      "p_name": "Memory Foam Pillow",
+      "p_price": 1800,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Contour pillow for neck pain relief."
+    },
+    {
+      "id": "P025",
+      "p_name": "Nespresso Pixie",
+      "p_price": 14000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1510520434124-5bc7e642b61d?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Fast heating espresso capsule machine."
+    },
+    {
+      "id": "P026",
+      "p_name": "Air Purifier Pro",
+      "p_price": 19000,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1585771724684-2626ef778914?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "HEPA H13 filter for large rooms."
+    },
+    {
+      "id": "P027",
+      "p_name": "Cast Iron Skillet",
+      "p_price": 4000,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1594140719747-414239bc9625?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Heavy duty 12-inch seasoned pan."
+    },
+    {
+      "id": "P028",
+      "p_name": "Scented Soy Candle",
+      "p_price": 650,
+      "p_stock": 80,
+      "p_image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Lavender and Vanilla calming scent."
+    },
+    {
+      "id": "P029",
+      "p_name": "Bamboo Bath Towels",
+      "p_price": 1400,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1530132205537-83344e13554e?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Ultra-soft and absorbent fiber towels."
+    },
+    {
+      "id": "P030",
+      "p_name": "Wall Clock Modern",
+      "p_price": 999,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Silent non-ticking wooden clock."
+    },
+    {
+      "id": "P031",
+      "p_name": "Yoga Mat Pro",
+      "p_price": 2200,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Non-slip eco-friendly TPE mat."
+    },
+    {
+      "id": "P032",
+      "p_name": "Wilson Basketball",
+      "p_price": 1800,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1519861531473-9200362f46b3?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Official size 7 indoor/outdoor ball."
+    },
+    {
+      "id": "P033",
+      "p_name": "Dumbbell Set 20kg",
+      "p_price": 5000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Adjustable iron dumbbells with case."
+    },
+    {
+      "id": "P034",
+      "p_name": "Swimming Goggles",
+      "p_price": 850,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1551927336-09d50efd69cd?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Anti-fog wide vision leak-proof."
+    },
+    {
+      "id": "P035",
+      "p_name": "Babolat Tennis Racket",
+      "p_price": 14000,
+      "p_stock": 8,
+      "p_image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Pro-level graphite power racket."
+    },
+    {
+      "id": "P036",
+      "p_name": "Cricket Bat Grade 1",
+      "p_price": 12000,
+      "p_stock": 5,
+      "p_image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Premium English Willow with thick edges."
+    },
+    {
+      "id": "P037",
+      "p_name": "Football Boots FG",
+      "p_price": 4500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Firm ground cleats for max speed."
+    },
+    {
+      "id": "P038",
+      "p_name": "Cycling Helmet",
+      "p_price": 2800,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1557053503-0c252e5c8093?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Lightweight aerodynamic bike safety."
+    },
+    {
+      "id": "P039",
+      "p_name": "Punching Bag 4ft",
+      "p_price": 3500,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1517438476312-10d79c67750d?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Heavy duty leather bag (unfilled)."
+    },
+    {
+      "id": "P040",
+      "p_name": "Skateboard Maple",
+      "p_price": 3200,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "7-ply Canadian maple pro deck."
+    },
+    {
+      "id": "P041",
+      "p_name": "Atomic Habits",
+      "p_price": 499,
+      "p_stock": 150,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Tiny changes, remarkable results."
+    },
+    {
+      "id": "P042",
+      "p_name": "The Alchemist",
+      "p_price": 350,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "A fable about following your dream."
+    },
+    {
+      "id": "P043",
+      "p_name": "Wings of Fire",
+      "p_price": 550,
+      "p_stock": 80,
+      "p_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatEW1cd1QyvkvZgmScrAfnRFzngNRo7Me9w&s",
+      "p_category": "Books",
+      "p_description": "Autobiography of APJ Abdul Kalam."
+    },
+    {
+      "id": "P044",
+      "p_name": "Ikigai",
+      "p_price": 400,
+      "p_stock": 120,
+      "p_image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Japanese secret to a long and happy life."
+    },
+    {
+      "id": "P045",
+      "p_name": "Rich Dad Poor Dad",
+      "p_price": 399,
+      "p_stock": 90,
+      "p_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Financial management for everyone."
+    },
+    {
+      "id": "P046",
+      "p_name": "Thinking Fast and Slow",
+      "p_price": 600,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1532012197367-2d5978460f1f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Masterpiece on human psychology."
+    },
+    {
+      "id": "P047",
+      "p_name": "The Psychology of Money",
+      "p_price": 450,
+      "p_stock": 110,
+      "p_image": "https://images.unsplash.com/photo-1592492159418-39f319320569?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Timeless lessons on wealth and greed."
+    },
+    {
+      "id": "P048",
+      "p_name": "Harry Potter Box Set",
+      "p_price": 3500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Complete 7-book collection set."
+    },
+    {
+      "id": "P049",
+      "p_name": "Zero to One",
+      "p_price": 500,
+      "p_stock": 65,
+      "p_image": "https://images.unsplash.com/photo-1543004218-283040bf6b5b?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Notes on startups by Peter Thiel."
+    },
+    {
+      "id": "P050",
+      "p_name": "Deep Work",
+      "p_price": 480,
+      "p_stock": 70,
+      "p_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Rules for focused success."
+    },
+    {
+      "id": "P051",
+      "p_name": "iPad Pro 12.9",
+      "p_price": 109000,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "M2 chip with Liquid Retina XDR."
+    },
+    {
+      "id": "P052",
+      "p_name": "AirPods Pro 2",
+      "p_price": 24000,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1588423770504-8169956d85cf?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "MagSafe Charging Case (USB‑C)."
+    },
+    {
+      "id": "P053",
+      "p_name": "Apple Watch Ultra 2",
+      "p_price": 89000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1434493907317-a46b5bc78344?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "The most rugged and capable watch."
+    },
+    {
+      "id": "P054",
+      "p_name": "Kindle Scribe",
+      "p_price": 32000,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1592434134753-a70baf7979d7?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Read and write with Paperwhite screen."
+    },
+    {
+      "id": "P055",
+      "p_name": "PS5 Slim Console",
+      "p_price": 54000,
+      "p_stock": 6,
+      "p_image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Play Has No Limits, 1TB SSD."
+    },
+    {
+      "id": "P056",
+      "p_name": "GoPro Hero 12",
+      "p_price": 38000,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "5.3K video, HDR, and stabilization."
+    },
+    {
+      "id": "P057",
+      "p_name": "Surface Pro 9",
+      "p_price": 105000,
+      "p_stock": 7,
+      "p_image": "https://images.unsplash.com/photo-1585909695484-33026231584d?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Laptop power with tablet flexibility."
+    },
+    {
+      "id": "P058",
+      "p_name": "Marshall Emberton II",
+      "p_price": 14500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Iconic portable bluetooth speaker."
+    },
+    {
+      "id": "P059",
+      "p_name": "Anker 737 Power Bank",
+      "p_price": 12000,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1623126307711-072993e810ce?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "140W two-way fast charging."
+    },
+    {
+      "id": "P060",
+      "p_name": "Corsair Void Pro",
+      "p_price": 8500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "7.1 Surround wireless gaming headset."
+    },
+    {
+      "id": "P061",
+      "p_name": "Linen Summer Shirt",
+      "p_price": 2200,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1596755094514-f87034a264c6?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Breathable pure linen slim fit."
+    },
+    {
+      "id": "P062",
+      "p_name": "Chelsea Leather Boots",
+      "p_price": 4800,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Premium tan leather elastic side panels."
+    },
+    {
+      "id": "P063",
+      "p_name": "Chiffon Maxi Dress",
+      "p_price": 3500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Elegant evening wear with floral print."
+    },
+    {
+      "id": "P064",
+      "p_name": "North Face Daypack",
+      "p_price": 6000,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Rugged laptop backpack for hiking."
+    },
+    {
+      "id": "P065",
+      "p_name": "Silk Necktie Blue",
+      "p_price": 1200,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1589756823851-ede1be67418c?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "100% mulberry silk handmade tie."
+    },
+    {
+      "id": "P066",
+      "p_name": "Wool Knit Sweater",
+      "p_price": 3800,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1614676471928-2ed0ad1061a4?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Merino wool blend navy blue sweater."
+    },
+    {
+      "id": "P067",
+      "p_name": "Cargo Khaki Pants",
+      "p_price": 2800,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1473966968600-fa804b86d30b?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Military style cotton cargo trousers."
+    },
+    {
+      "id": "P068",
+      "p_name": "Polo Ralph Lauren Tee",
+      "p_price": 4500,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic fit mesh polo with logo."
+    },
+    {
+      "id": "P069",
+      "p_name": "Gold Chain Necklace",
+      "p_price": 18000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "18k gold plated stainless steel."
+    },
+    {
+      "id": "P070",
+      "p_name": "Beanie Winter Hat",
+      "p_price": 600,
+      "p_stock": 120,
+      "p_image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Soft ribbed knit cozy beanie."
+    },
+    {
+      "id": "P071",
+      "p_name": "Electric Kettle 1.7L",
+      "p_price": 2200,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Auto-shutoff stainless steel kettle."
+    },
+    {
+      "id": "P072",
+      "p_name": "Ceramic Dinner Set",
+      "p_price": 6500,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1514228742587-6b1558fbed20?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "16-piece stoneware dinnerware set."
+    },
+    {
+      "id": "P073",
+      "p_name": "Indoor Palm Plant",
+      "p_price": 1500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1501004318641-729e8454bd06?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Areca Palm with decorative ceramic pot."
+    },
+    {
+      "id": "P074",
+      "p_name": "Coffee Bean Grinder",
+      "p_price": 2800,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Electric stainless steel blade grinder."
+    },
+    {
+      "id": "P075",
+      "p_name": "Blackout Curtains",
+      "p_price": 3200,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Thermal insulated room darkening panels."
+    },
+    {
+      "id": "P076",
+      "p_name": "Modern Table Vase",
+      "p_price": 850,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1581783898377-1c85bf937427?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Matte finish ceramic boho decor."
+    },
+    {
+      "id": "P077",
+      "p_name": "Soft Fleece Blanket",
+      "p_price": 1400,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1512418430913-588309736734?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Lightweight cozy sofa throw blanket."
+    },
+    {
+      "id": "P078",
+      "p_name": "Electric Toaster 4-Slice",
+      "p_price": 3500,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1510520434124-5bc7e642b61d?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Variable browning and defrost mode."
+    },
+    {
+      "id": "P079",
+      "p_name": "Laundry Hamper Bamboo",
+      "p_price": 1800,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1594269600464-37b1b58a9fe7?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Collapsible basket with lid and liner."
+    },
+    {
+      "id": "P080",
+      "p_name": "Aromatherapy Diffuser",
+      "p_price": 2500,
+      "p_stock": 22,
+      "p_image": "https://images.unsplash.com/photo-1603006905003-be475563bc59?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Ultrasonic cool mist with LED light."
+    },
+    {
+      "id": "P081",
+      "p_name": "Resistance Loop Bands",
+      "p_price": 750,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1598289431512-b97b0917a63e?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Set of 5 heavy duty fitness bands."
+    },
+    {
+      "id": "P082",
+      "p_name": "Pull-up Bar for Door",
+      "p_price": 1800,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "No-screw installation multi-grip."
+    },
+    {
+      "id": "P083",
+      "p_name": "Foam Roller 18-inch",
+      "p_price": 1200,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "High density for muscle massage."
+    },
+    {
+      "id": "P084",
+      "p_name": "Badminton Shuttlecocks",
+      "p_price": 950,
+      "p_stock": 150,
+      "p_image": "https://images.unsplash.com/photo-1626225928561-a77477542034?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Premium duck feather pack of 12."
+    },
+    {
+      "id": "P085",
+      "p_name": "Boxing Gloves 12oz",
+      "p_price": 2800,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Pro-style training gloves with wrist support."
+    },
+    {
+      "id": "P086",
+      "p_name": "Tennis Balls Can",
+      "p_price": 600,
+      "p_stock": 200,
+      "p_image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Pressurized championship balls set of 3."
+    },
+    {
+      "id": "P087",
+      "p_name": "Speed Skipping Rope",
+      "p_price": 450,
+      "p_stock": 300,
+      "p_image": "https://images.unsplash.com/photo-1594882645126-14020914d58d?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Adjustable cable with ball bearings."
+    },
+    {
+      "id": "P088",
+      "p_name": "Weighted Vest 10kg",
+      "p_price": 4200,
+      "p_stock": 12,
+      "p_image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Adjustable straps for bodyweight training."
+    },
+    {
+      "id": "P089",
+      "p_name": "Hand Grip Strengthener",
+      "p_price": 350,
+      "p_stock": 250,
+      "p_image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Adjustable resistance 10kg-60kg."
+    },
+    {
+      "id": "P090",
+      "p_name": "Mountain Bike Helmet",
+      "p_price": 3200,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1557053503-0c252e5c8093?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "MIPS protection with visor."
+    },
+    {
+      "id": "P091",
+      "p_name": "Sapiens",
+      "p_price": 550,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "A brief history of humankind."
+    },
+    {
+      "id": "P092",
+      "p_name": "Man's Search for Meaning",
+      "p_price": 350,
+      "p_stock": 85,
+      "p_image": "https://images.unsplash.com/photo-1532012197367-2d5978460f1f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Viktor Frankl's psychological memoir."
+    },
+    {
+      "id": "P093",
+      "p_name": "Start with Why",
+      "p_price": 499,
+      "p_stock": 70,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Simon Sinek on leadership inspiration."
+    },
+    {
+      "id": "P094",
+      "p_name": "The Silent Patient",
+      "p_price": 399,
+      "p_stock": 130,
+      "p_image": "https://images.unsplash.com/photo-1543004218-283040bf6b5b?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Gripping psychological thriller."
+    },
+    {
+      "id": "P095",
+      "p_name": "Guns, Germs, and Steel",
+      "p_price": 650,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "History of human societies."
+    },
+    {
+      "id": "P096",
+      "p_name": "Meditations",
+      "p_price": 300,
+      "p_stock": 110,
+      "p_image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Stoic wisdom by Marcus Aurelius."
+    },
+    {
+      "id": "P097",
+      "p_name": "1984 by George Orwell",
+      "p_price": 250,
+      "p_stock": 150,
+      "p_image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Dystopian classic masterpiece."
+    },
+    {
+      "id": "P098",
+      "p_name": "The Great Gatsby",
+      "p_price": 200,
+      "p_stock": 120,
+      "p_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "F. Scott Fitzgerald's famous novel."
+    },
+    {
+      "id": "P099",
+      "p_name": "To Kill a Mockingbird",
+      "p_price": 350,
+      "p_stock": 90,
+      "p_image": "https://images.unsplash.com/photo-1543004218-283040bf6b5b?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Harper Lee's Pulitzer Prize winner."
+    },
+    {
+      "id": "P100",
+      "p_name": "The Selfish Gene",
+      "p_price": 600,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1532012197367-2d5978460f1f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Richard Dawkins on evolution."
+    },
+    {
+      "id": "P101",
+      "p_name": "External SSD 1TB",
+      "p_price": 9500,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1597740985671-2a8a3b80f017?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Ultra-fast read/write speeds, USB-C."
+    },
+    {
+      "id": "P102",
+      "p_name": "Webcam 4K Ultra HD",
+      "p_price": 8000,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1588652136011-893796850d53?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Crystal clear video for streaming."
+    },
+    {
+      "id": "P103",
+      "p_name": "Mechanical Keyboard",
+      "p_price": 5500,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "RGB backlit with red linear switches."
+    },
+    {
+      "id": "P104",
+      "p_name": "Curved Gaming Monitor",
+      "p_price": 28000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "32-inch 144Hz 1ms response time."
+    },
+    {
+      "id": "P105",
+      "p_name": "Graphics Tablet",
+      "p_price": 12000,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Pen tablet for digital art and design."
+    },
+    {
+      "id": "P106",
+      "p_name": "Router Wi-Fi 6",
+      "p_price": 6500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Next-gen speed for lag-free gaming."
+    },
+    {
+      "id": "P107",
+      "p_name": "Noise Cancelling Earbuds",
+      "p_price": 12000,
+      "p_stock": 35,
+      "p_image": "https://images.unsplash.com/photo-1588423770504-8169956d85cf?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Compact ANC buds with deep bass."
+    },
+    {
+      "id": "P108",
+      "p_name": "Smart Home Hub",
+      "p_price": 4500,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1550524514-9636edba30c7?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Control your entire house with voice."
+    },
+    {
+      "id": "P109",
+      "p_name": "Portable Projector",
+      "p_price": 15000,
+      "p_stock": 8,
+      "p_image": "https://images.unsplash.com/photo-1535016120720-40c646bebbdc?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Full HD theater in your pocket."
+    },
+    {
+      "id": "P110",
+      "p_name": "Charging Station",
+      "p_price": 2500,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "4-in-1 dock for all Apple devices."
+    },
+    {
+      "id": "P111",
+      "p_name": "Aviator Sunglasses",
+      "p_price": 2500,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Polarized lenses with gold metal frame."
+    },
+    {
+      "id": "P112",
+      "p_name": "Denim Jeans Slim Fit",
+      "p_price": 1800,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Stretchable high-quality dark denim."
+    },
+    {
+      "id": "P113",
+      "p_name": "Summer Floral Dress",
+      "p_price": 2400,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Breathable cotton with vintage print."
+    },
+    {
+      "id": "P114",
+      "p_name": "Leather Chelsea Boots",
+      "p_price": 4500,
+      "p_stock": 18,
+      "p_image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Tan genuine leather with elastic sides."
+    },
+    {
+      "id": "P115",
+      "p_name": "Running Sneakers Mesh",
+      "p_price": 3200,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Lightweight foam cushioning for joggers."
+    },
+    {
+      "id": "P116",
+      "p_name": "Crossbody Leather Bag",
+      "p_price": 2800,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Compact bag with adjustable strap."
+    },
+    {
+      "id": "P117",
+      "p_name": "Polo T-Shirt Pique",
+      "p_price": 950,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Classic collar cotton shirt."
+    },
+    {
+      "id": "P118",
+      "p_name": "Wool Knit Beanie",
+      "p_price": 400,
+      "p_stock": 150,
+      "p_image": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Winter cap for maximum warmth."
+    },
+    {
+      "id": "P119",
+      "p_name": "Silk Scarf Pattern",
+      "p_price": 1200,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1584030373081-f37b7bb4fa8e?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Soft premium silk with artistic design."
+    },
+    {
+      "id": "P120",
+      "p_name": "Canvas Tote Bag",
+      "p_price": 500,
+      "p_stock": 200,
+      "p_image": "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800",
+      "p_category": "Fashion",
+      "p_description": "Eco-friendly reusable shopping bag."
+    },
+    {
+      "id": "P121",
+      "p_name": "Bamboo Bath Set",
+      "p_price": 1800,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1530132205537-83344e13554e?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Set of 4 ultra-absorbent towels."
+    },
+    {
+      "id": "P122",
+      "p_name": "Ceramic Table Lamp",
+      "p_price": 2500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1507473885765-e6ed657f9971?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Elegant bedside lamp with linen shade."
+    },
+    {
+      "id": "P123",
+      "p_name": "Cast Iron Skillet 12\"",
+      "p_price": 3200,
+      "p_stock": 15,
+      "p_image": "https://images.unsplash.com/photo-1594140719747-414239bc9625?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Pre-seasoned heavy duty pan."
+    },
+    {
+      "id": "P124",
+      "p_name": "Modern Wall Clock",
+      "p_price": 950,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Minimalist silent wooden finish."
+    },
+    {
+      "id": "P125",
+      "p_name": "Electric Coffee Maker",
+      "p_price": 4500,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1510520434124-5bc7e642b61d?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Drip coffee machine with glass carafe."
+    },
+    {
+      "id": "P126",
+      "p_name": "Fleece Throw Blanket",
+      "p_price": 1200,
+      "p_stock": 80,
+      "p_image": "https://images.unsplash.com/photo-1512418430913-588309736734?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Ultra-soft microfiber cozy blanket."
+    },
+    {
+      "id": "P127",
+      "p_name": "Blackout Curtains Set",
+      "p_price": 2200,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Thermal insulated 99% light blocking."
+    },
+    {
+      "id": "P128",
+      "p_name": "Indoor Succulent Pot",
+      "p_price": 600,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1509423358206-25f7ad795154?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Mini decorative plant for work desk."
+    },
+    {
+      "id": "P129",
+      "p_name": "Electric Kettle 1.5L",
+      "p_price": 1600,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Fast boiling with dry protection."
+    },
+    {
+      "id": "P130",
+      "p_name": "Storage Box Set of 3",
+      "p_price": 1100,
+      "p_stock": 60,
+      "p_image": "https://images.unsplash.com/photo-1594269600464-37b1b58a9fe7?q=80&w=800",
+      "p_category": "Home & Living",
+      "p_description": "Fabric organizers for wardrobe."
+    },
+    {
+      "id": "P131",
+      "p_name": "Yoga Mat 6mm Thick",
+      "p_price": 1400,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "High density non-slip fitness mat."
+    },
+    {
+      "id": "P132",
+      "p_name": "Dumbbells Pair 5kg",
+      "p_price": 2200,
+      "p_stock": 40,
+      "p_image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Vinyl coated cast iron weights."
+    },
+    {
+      "id": "P133",
+      "p_name": "Basketball Size 7",
+      "p_price": 1200,
+      "p_stock": 50,
+      "p_image": "https://images.unsplash.com/photo-1519861531473-9200362f46b3?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Composite leather for superior grip."
+    },
+    {
+      "id": "P134",
+      "p_name": "Badminton Racket Set",
+      "p_price": 1800,
+      "p_stock": 30,
+      "p_image": "https://images.unsplash.com/photo-1626225928561-a77477542034?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Carbon fiber frame with carry bag."
+    },
+    {
+      "id": "P135",
+      "p_name": "Swimming Goggles Set",
+      "p_price": 750,
+      "p_stock": 80,
+      "p_image": "https://images.unsplash.com/photo-1551927336-09d50efd69cd?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "UV protection with silicone earplugs."
+    },
+    {
+      "id": "P136",
+      "p_name": "Football Boots Cleats",
+      "p_price": 2800,
+      "p_stock": 45,
+      "p_image": "https://images.unsplash.com/photo-1543351611-58f69d7c1781?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Professional grip for grass fields."
+    },
+    {
+      "id": "P137",
+      "p_name": "Resistance Bands Set",
+      "p_price": 900,
+      "p_stock": 120,
+      "p_image": "https://images.unsplash.com/photo-1598289431512-b97b0917a63e?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "5 levels of strength for home gym."
+    },
+    {
+      "id": "P138",
+      "p_name": "Punching Bag Unfilled",
+      "p_price": 2200,
+      "p_stock": 20,
+      "p_image": "https://images.unsplash.com/photo-1517438476312-10d79c67750d?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Durable synthetic leather for boxing."
+    },
+    {
+      "id": "P139",
+      "p_name": "Skateboard Pro Deck",
+      "p_price": 2500,
+      "p_stock": 25,
+      "p_image": "https://images.unsplash.com/photo-1547447134-cd3f5c716030?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Maple wood with high-grip wheels."
+    },
+    {
+      "id": "P140",
+      "p_name": "Hand Grip Adjuster",
+      "p_price": 400,
+      "p_stock": 200,
+      "p_image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=800",
+      "p_category": "Sports",
+      "p_description": "Strengthen wrist and forearm muscles."
+    },
+    {
+      "id": "P141",
+      "p_name": "Atomic Habits Book",
+      "p_price": 450,
+      "p_stock": 150,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Proven way to build good habits."
+    },
+    {
+      "id": "P142",
+      "p_name": "The Alchemist Novel",
+      "p_price": 300,
+      "p_stock": 100,
+      "p_image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Follow your heart's destiny."
+    },
+    {
+      "id": "P143",
+      "p_name": "Ikigai Life Guide",
+      "p_price": 380,
+      "p_stock": 120,
+      "p_image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Japanese secret to long happy life."
+    },
+    {
+      "id": "P144",
+      "p_name": "Sapiens History",
+      "p_price": 500,
+      "p_stock": 80,
+      "p_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "History of the human species."
+    },
+    {
+      "id": "P145",
+      "p_name": "Zero to One Startup",
+      "p_price": 450,
+      "p_stock": 90,
+      "p_image": "https://images.unsplash.com/photo-1543004218-283040bf6b5b?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Building the future of business."
+    },
+    {
+      "id": "P146",
+      "p_name": "Deep Work Success",
+      "p_price": 400,
+      "p_stock": 110,
+      "p_image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Focus in a distracted world."
+    },
+    {
+      "id": "P147",
+      "p_name": "Psychology of Money",
+      "p_price": 390,
+      "p_stock": 130,
+      "p_image": "https://images.unsplash.com/photo-1592492159418-39f319320569?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Wealth, greed, and happiness."
+    },
+    {
+      "id": "P148",
+      "p_name": "Thinking Fast & Slow",
+      "p_price": 550,
+      "p_stock": 70,
+      "p_image": "https://images.unsplash.com/photo-1532012197367-2d5978460f1f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Mind's two systems of thought."
+    },
+    {
+      "id": "P149",
+      "p_name": "Start with Why Sinek",
+      "p_price": 420,
+      "p_stock": 95,
+      "p_image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+      "p_category": "Books",
+      "p_description": "Great leaders inspire action."
+    },
+    {
+      "id": "P150",
+      "p_name": "Wings of Fire Kalam",
+      "p_price": 500,
+      "p_stock": 200,
+      "p_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSatEW1cd1QyvkvZgmScrAfnRFzngNRo7Me9w&s",
+      "p_category": "Books",
+      "p_description": "The inspiring life of APJ Kalam."
+    },
+    {
+      "p_name": "Storio Table Football Game",
+      "p_price": 39000,
+      "p_stock": 49,
+      "p_image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSdQw7z_mpRndb222YNKYOvXVrhYyd8Wq6FhV_fLTmZGCuKam1e7oYvNMMrsy5kSpnhE8J44lmJ81zEVm-95V04EMer9OiIzQO_oPLnMOjcmFiCC-gnNIkG8A",
+      "p_category": "Sports",
+      "p_description": " A floating air football disc with soft foam bumpers and LED lights.",
+      "id": "eW-RwHGmmhs"
+    }
+  ],
+  "cart": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

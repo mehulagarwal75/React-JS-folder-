@@ -76,11 +76,11 @@ const FoodMenuForm = ({ menuItems, setMenuItems, editItem, editIndex, setEditInd
     <div className="bg-white rounded-2xl shadow-xl w-full overflow-hidden border border-gray-100 relative">
       
       {/* Top Gradient Accent Line */}
-      <div className="h-2 w-full bg-gradient-to-r from-orange-500 to-red-600 absolute top-0 left-0"></div>
+      <div className="h-2 w-full bg-linear-to-r from-orange-500 to-red-600 absolute top-0 left-0"></div>
 
       <div className="p-8 md:p-10">
         <div className="mb-8 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600 mb-2">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-orange-500 to-red-600 mb-2">
             {editIndex !== null ? 'Update Dish Details' : 'Add New Dish'}
           </h2>
           <p className="text-gray-500 text-sm md:text-base">
@@ -200,7 +200,7 @@ const FoodMenuForm = ({ menuItems, setMenuItems, editItem, editIndex, setEditInd
             </button>
             <button
               type="submit"
-              className="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-orange-500 to-red-600 text-white font-bold rounded-xl hover:from-orange-600 hover:to-red-700 hover:-translate-y-1 focus:ring-4 focus:ring-orange-200 transition-all duration-200 shadow-lg"
+              className="w-full md:w-auto px-8 py-3 bg-linear-to-r from-orange-500 to-red-600 text-white font-bold rounded-xl hover:from-orange-600 hover:to-red-700 hover:-translate-y-1 focus:ring-4 focus:ring-orange-200 transition-all duration-200 shadow-lg"
             >
               {editIndex !== null ? 'Update Menu Item' : 'Save Menu Item'}
             </button>
