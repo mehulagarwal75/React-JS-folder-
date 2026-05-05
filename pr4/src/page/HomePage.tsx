@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { fetchAllProducts } from "../Services/ProductService";
+import { fetchAllProducts, addToCart } from "../Services/ProductService";
 import type { productFetchType } from "../utils/global";
 import { Link } from "react-router";
+import { toast } from "react-toastify";
+import { BiCartAdd } from "react-icons/bi";
 
 export default function HomePage() {
     const [allProducts, setAllProducts] = useState<productFetchType[]>([]);
@@ -77,30 +79,31 @@ export default function HomePage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                     {filterProducts.map((product, index) => (
-                        <Link key={product.id || index} to={`product-detail/${product.id}`}>
-                            <div className="group bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col h-full hover:border-indigo-300 hover:-translate-y-1">
-                                {/* Image Container */}
-                                <div className="relative aspect-square overflow-hidden bg-linear-to-br from-slate-100 to-slate-200">
-                                    <img
-                                        src={product.p_image}
-                                        alt={product.p_name}
-                                        className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
-                                    />
-                                    <div className="absolute top-3 left-3">
-                                        <span className="bg-white/95 backdrop-blur-md text-indigo-600 text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full shadow-lg border border-indigo-100">
-                                            {product.p_category}
-                                        </span>
-                                    </div>
-                                    <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div key={product.id || index} className="group bg-white rounded-2xl border border-slate-100 shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col h-full hover:border-indigo-300 hover:-translate-y-1">
+                            {/* Image Container */}
+                            <Link to={`/product-detail/${product.id}`} className="relative block aspect-square overflow-hidden bg-linear-to-br from-slate-100 to-slate-200">
+                                <img
+                                    src={product.p_image}
+                                    alt={product.p_name}
+                                    className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
+                                />
+                                <div className="absolute top-3 left-3">
+                                    <span className="bg-white/95 backdrop-blur-md text-indigo-600 text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full shadow-lg border border-indigo-100">
+                                        {product.p_category}
+                                    </span>
                                 </div>
+                                <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            </Link>
 
-                                {/* Product Info */}
-                                <div className="p-5 flex flex-col grow">
-                                    <div className="mb-2">
+                            {/* Product Info */}
+                            <div className="p-5 flex flex-col grow">
+                                <div className="mb-2">
+                                    <Link to={`/product-detail/${product.id}`}>
                                         <h2 className="text-lg font-bold text-slate-800 line-clamp-1 group-hover:text-indigo-600 transition-colors">
                                             {product.p_name}
                                         </h2>
-                                    </div>
+                                    </Link>
+                                </div>
 
                                     <p className="text-slate-500 text-sm line-clamp-2 mb-4 grow">
                                         {product.p_description}
@@ -112,15 +115,21 @@ export default function HomePage() {
                                             <span className="text-xl font-black text-indigo-600">₹{Number(product.p_price).toLocaleString()}</span>
                                         </div>
 
-                                        <button className="bg-linear-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white p-2.5 rounded-xl shadow-lg shadow-indigo-200 transition-all active:scale-90 group/btn">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 group-hover/btn:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                                            </svg>
-                                        </button>
-                                    </div>
+                                    <button 
+                                        onClick={async (e) => {
+                                            e.preventDefault();
+                                            e.stopPropagation();
+                                            const ok = await addToCart({ ...product, quantity: 1 });
+                                            if (ok) toast.success("Added to cart!");
+                                            else toast.error("Failed to add to cart");
+                                        }}
+                                        className="bg-linear-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white p-2.5 rounded-xl shadow-lg shadow-indigo-200 transition-all active:scale-90 group/btn"
+                                    >
+                                        <BiCartAdd className="h-6 w-6 group-hover/btn:scale-110 transition-transform" />
+                                    </button>
                                 </div>
                             </div>
-                        </Link>
+                        </div>
                     ))}
                 </div>
 

@@ -1,8 +1,10 @@
 import { Outlet } from "react-router";
 import Header from "./components/Header";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function App() {
+
   return (
     <div className="min-h-screen bg-[#f8fafc] text-[#1e293b]">
 

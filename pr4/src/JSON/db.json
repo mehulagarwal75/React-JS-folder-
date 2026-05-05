@@ -1360,6 +1360,18 @@
       "id": "eW-RwHGmmhs"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": "ZvWly41Gmyo",
+      "p_name": "iPhone 15 Pro",
+      "p_price": 134000,
+      "p_stock": 10,
+      "p_image": "https://images.unsplash.com/photo-1696446701796-da61225697cc?q=80&w=800",
+      "p_category": "Electronic",
+      "p_description": "Titanium design, A17 Pro chip, Pro camera system.",
+      "quantity": 1,
+      "productId": "P001"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

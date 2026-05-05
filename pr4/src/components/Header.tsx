@@ -1,6 +1,26 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router";
+import { fetchCart } from "../Services/ProductService";
 
 export default function Header() {
+    const [cartCount, setCartCount] = useState(0);
+
+    const loadCartData = async () => {
+        try {
+            const items = await fetchCart();
+            const count = items.reduce((sum: number, item: any) => sum + item.quantity, 0); 
+            setCartCount(count);
+        } catch (error) {
+            console.error("Failed to fetch cart", error);
+        }
+    };
+
+    useEffect(() => {
+        loadCartData();
+        window.addEventListener("cartUpdated", loadCartData);
+        return () => window.removeEventListener("cartUpdated", loadCartData);
+    }, []);
+
     return <>
         {/* Navbar */}
         <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/60 shadow-sm">
@@ -34,6 +54,17 @@ export default function Header() {
                                     className={({ isActive }) => `rounded-lg px-4 py-2 text-sm font-semibold transition-all ${isActive ? "text-indigo-600 bg-indigo-50 ring-1 ring-indigo-200" : "text-slate-600 hover:text-indigo-600 hover:bg-indigo-50"}`}
                                 >
                                     📦 Products
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to="/cart"
+                                    className={({ isActive }) => `flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition-all ${isActive ? "text-indigo-600 bg-indigo-50 ring-1 ring-indigo-200" : "text-slate-600 hover:text-indigo-600 hover:bg-indigo-50"}`}
+                                >
+                                    🛒 Cart
+                                    {cartCount > 0 && (
+                                        <span className="bg-indigo-600 text-white text-xs px-2 py-0.5 rounded-full">{cartCount}</span>
+                                    )}
                                 </NavLink>
                             </li>
                         </ul>

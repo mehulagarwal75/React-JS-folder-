@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router"; // Added useNavigate for a back button
-import { fetchSingleProduct } from "../Services/ProductService";
+import { useParams, useNavigate } from "react-router";
+import { fetchSingleProduct, addToCart } from "../Services/ProductService";
+import { toast } from "react-toastify";
 import type { productFetchType } from "../utils/global";
+import { BiCartAdd } from "react-icons/bi";
 
 export default function ProductDetailPage() {
     const { productId } = useParams();
@@ -92,10 +94,15 @@ export default function ProductDetailPage() {
                     {/* Action Area */}
                     <div className="pt-8 space-y-4 border-t border-slate-100">
                         <div className="flex gap-4">
-                            <button className="flex-1 bg-linear-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold py-4 rounded-2xl shadow-xl shadow-indigo-300 transition-all transform active:scale-[0.98] flex items-center justify-center gap-3 text-lg">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                                </svg>
+                            <button
+                                onClick={async () => {
+                                    const ok = await addToCart({ ...productData, quantity: 1 });
+                                    if (ok) toast.success("Added to cart!");
+                                    else toast.error("Failed to add to cart");
+                                }}
+                                className="flex-1 bg-linear-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold py-4 rounded-2xl shadow-xl shadow-indigo-300 transition-all transform active:scale-[0.98] flex items-center justify-center gap-3 text-lg"
+                            >
+                                <BiCartAdd className="h-6 w-6" />
                                 Add to Cart
                             </button>
                             <button className="p-4 bg-slate-50 border-2 border-slate-200 text-slate-400 hover:text-red-500 hover:bg-red-50 hover:border-red-200 rounded-2xl transition-all hover:scale-110 active:scale-95">
